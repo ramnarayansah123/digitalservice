@@ -11,15 +11,49 @@ export default function page(){
   <div className="learn">home</div>
 
 </header>
-<h1 className="learn text-center p-3">Product</h1>
 
-<main className="flex justify-center flex-wrap ml-2 gap-4   ">
+
+<main >
+<h1 className="learn text-center p-2 mb-2 bg-red-50">Product</h1>
+
+  <div className="flex justify-center flex-wrap ml-2 gap-4   ">
+
 <ProductCard name="Burger1" about="this is burger" price="$6.00"/>
 <ProductCard name="Cauliflower" about="this is this is " price="$1.00"/>
 <ProductCard name="Cauliflower" about="this is this is " price="$1.00"/>
 <ProductCard name="Cauliflower" about="this is this is " price="$1.00"/>
+  </div>
+
+  <h1 className="learn text-center p-2 bg-red-50 mt-2 mb-2" >Subscription</h1>
+  <div className="flex justify-center flex-wrap ml-2 gap-4   ">
+
+<ProductCard name="Burger1" about="this is burger" price="$6.00"/>
 <ProductCard name="Cauliflower" about="this is this is " price="$1.00"/>
+<ProductCard name="Cauliflower" about="this is this is " price="$1.00"/>
+<ProductCard name="Cauliflower" about="this is this is " price="$1.00"/>
+  </div>
+
+  <h1 className="learn text-center p-2 bg-red-50 mt-2 mb-2" >Gift Card</h1>
+  <div className="flex justify-center flex-wrap ml-2 gap-4   ">
+
+<ProductCard name="Burger1" about="this is burger" price="$6.00"/>
+<ProductCard name="Cauliflower" about="this is this is " price="$1.00"/>
+<ProductCard name="Cauliflower" about="this is this is " price="$1.00"/>
+<ProductCard name="Cauliflower" about="this is this is " price="$1.00"/>
+  </div>
+
 </main>
+<footer>
+  <div className="bg-green-400  pb-20">
+    <div className="flex gap-4 ml-8 mt-2">
+    <a className="mt-2">Product</a>
+    <a className="mt-2">Product</a>
+    <a className="mt-2 ">Product</a>
+
+    </div>
+
+  </div>
+</footer>
 
   </div>)
 } 
