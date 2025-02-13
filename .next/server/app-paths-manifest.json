@@ -1,4 +1,4 @@
 {
-  "/flex/page": "app/flex/page.js",
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/game/page": "app/game/page.js"
 }
