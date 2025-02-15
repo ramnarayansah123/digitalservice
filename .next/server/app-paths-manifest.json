@@ -1,8 +1,6 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/test/page": "app/test/page.js",
-  "/topup/page": "app/topup/page.js",
   "/flex/page": "app/flex/page.js",
+  "/topup/page": "app/topup/page.js",
   "/game/page": "app/game/page.js"
 }

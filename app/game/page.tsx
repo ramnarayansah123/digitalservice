@@ -31,7 +31,7 @@ export default function page() {
 
         <main className="mx-4 mt-11">
           <div className="rounded-lg">
-            <img className="w-full rounded-lg" src="/freefire.jpg" alt="Free Fire" />
+            <img className="w-auto rounded-lg" src="/freefire.jpg" alt="Free Fire" />
           </div>
 
           <div className="mt-10 ml-4">
@@ -69,7 +69,7 @@ export default function page() {
           </div>
           <div className="bg-[#336666] mt-10 pb-3">
             <h1 className="text-white font-extrabold">Player Id(UID)</h1>
-            <input className="px-44 ml-2" placeholder="enter player uid"></input>
+            <input className="px-14 sm:px-96 ml-2" placeholder="enter player uid"></input>
 
 
           </div>
