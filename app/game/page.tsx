@@ -44,26 +44,26 @@ export default function page() {
             <div className="grid grid-cols-2 gap-4 h-full">
               {/* Left Side */}
               <div className="col-span-1 flex flex-col gap-4">
-                <Price />
-                <Price />
-                <Price />
-                <Price />
-                <Price />
-                <Price />
-                <Price />
-                <Price />
+                <Price price="65" diamond="50 Diamond" />
+                <Price price="220" diamond="240 Diamond" />
+                <Price price="440" diamond="480 Diamond"/>
+                <Price price="770" diamond="850 Diamond"/>
+                <Price price="1100" diamond="1240 Diamond"/>
+                <Price price="4400" diamond="5060 Diamond"/>
+                <Price price="1100" diamond="Monthly Membership"/>
+                <Price price="220" diamond="Level Up Pass"/>
               </div>
 
               {/* Right Side */}
               <div className="col-span-1 flex flex-col gap-4">
-                <Price />
-                <Price />
-                <Price />
-                <Price />
-                <Price />
-                <Price />
-                <Price />
-                <Price />
+                <Price price="110" diamond="115 Diamond"/>
+                <Price price="330" diamond="355 Diamond"/>
+                <Price price="550" diamond="610 Diamond"/>
+                <Price price="1000" diamond="1090 Diamond"/>
+                <Price price="2200" diamond="2530 Diamond"/>
+                <Price price="8800" diamond="10120 Diamond"/>
+                <Price price="220" diamond="Weekly Membership"/>
+                <Price price="80" diamond="Weekly Lite"/>
               </div>
             </div>
           </div>
