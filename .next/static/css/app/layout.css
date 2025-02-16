@@ -599,14 +599,14 @@ video {
 .top-full {
   top: 100%;
 }
+.col-span-1 {
+  grid-column: span 1 / span 1;
+}
 .col-span-10 {
   grid-column: span 10 / span 10;
 }
 .col-span-2 {
   grid-column: span 2 / span 2;
-}
-.col-span-1 {
-  grid-column: span 1 / span 1;
 }
 .m-2 {
   margin: 0.5rem;
@@ -629,14 +629,6 @@ video {
 .my-1 {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
-}
-.mx-96 {
-  margin-left: 24rem;
-  margin-right: 24rem;
-}
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
 }
 .mb-2 {
   margin-bottom: 0.5rem;
@@ -665,26 +657,11 @@ video {
 .mt-2 {
   margin-top: 0.5rem;
 }
-.mt-8 {
-  margin-top: 2rem;
-}
-.ml-96 {
-  margin-left: 24rem;
-}
-.ml-3 {
-  margin-left: 0.75rem;
-}
-.ml-28 {
-  margin-left: 7rem;
-}
-.ml-10 {
-  margin-left: 2.5rem;
-}
-.ml-16 {
-  margin-left: 4rem;
-}
 .mt-5 {
   margin-top: 1.25rem;
+}
+.mt-8 {
+  margin-top: 2rem;
 }
 .block {
   display: block;
@@ -712,23 +689,17 @@ video {
 .h-5 {
   height: 1.25rem;
 }
-.h-80 {
-  height: 20rem;
-}
-.h-96 {
-  height: 24rem;
+.h-8 {
+  height: 2rem;
 }
 .h-\[96px\] {
   height: 96px;
 }
-.h-screen {
-  height: 100vh;
-}
-.h-8 {
-  height: 2rem;
-}
 .h-full {
   height: 100%;
+}
+.h-screen {
+  height: 100vh;
 }
 .min-h-screen {
   min-height: 100vh;
@@ -751,47 +722,20 @@ video {
 .w-64 {
   width: 16rem;
 }
+.w-8 {
+  width: 2rem;
+}
 .w-96 {
   width: 24rem;
 }
 .w-\[272px\] {
   width: 272px;
 }
-.w-full {
-  width: 100%;
-}
-.w-1\/2 {
-  width: 50%;
-}
-.w-1 {
-  width: 0.25rem;
-}
-.w-14 {
-  width: 3.5rem;
-}
-.w-28 {
-  width: 7rem;
-}
-.w-60 {
-  width: 15rem;
-}
-.w-2 {
-  width: 0.5rem;
-}
-.w-\[\] {
-  width: ;
-}
-.w-\[50\] {
-  width: 50;
-}
-.w-\[50\%\] {
-  width: 50%;
-}
-.w-8 {
-  width: 2rem;
-}
 .w-auto {
   width: auto;
+}
+.w-full {
+  width: 100%;
 }
 .max-w-4xl {
   max-width: 56rem;
@@ -820,10 +764,6 @@ video {
 }
 .cursor-pointer {
   cursor: pointer;
-}
-.scroll-px-12 {
-  scroll-padding-left: 3rem;
-  scroll-padding-right: 3rem;
 }
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -920,10 +860,6 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(96 165 250 / var(--tw-bg-opacity, 1));
 }
-.bg-blue-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity, 1));
-}
 .bg-blue-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(29 78 216 / var(--tw-bg-opacity, 1));
@@ -992,14 +928,18 @@ video {
 .p-2 {
   padding: 0.5rem;
 }
+.p-3 {
+  padding: 0.75rem;
+}
 .p-4 {
   padding: 1rem;
 }
 .p-5 {
   padding: 1.25rem;
 }
-.p-3 {
-  padding: 0.75rem;
+.px-14 {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
 }
 .px-20 {
   padding-left: 5rem;
@@ -1025,20 +965,11 @@ video {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-.px-px {
-  padding-left: 1px;
-  padding-right: 1px;
-}
-.px-44 {
-  padding-left: 11rem;
-  padding-right: 11rem;
-}
-.px-14 {
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
-}
 .pb-20 {
   padding-bottom: 5rem;
+}
+.pb-3 {
+  padding-bottom: 0.75rem;
 }
 .pb-4 {
   padding-bottom: 1rem;
@@ -1049,15 +980,19 @@ video {
 .ps-3 {
   padding-inline-start: 0.75rem;
 }
-.pb-3 {
-  padding-bottom: 0.75rem;
-}
 .text-center {
   text-align: center;
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+.text-\[11px\] {
+  font-size: 11px;
 }
 .text-lg {
   font-size: 1.125rem;
@@ -1070,13 +1005,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-.text-\[11px\] {
-  font-size: 11px;
-}
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 .font-bold {
   font-weight: 700;
@@ -1093,6 +1021,10 @@ video {
 .text-\[\#1a0dab\] {
   --tw-text-opacity: 1;
   color: rgb(26 13 171 / var(--tw-text-opacity, 1));
+}
+.text-\[\#367588\] {
+  --tw-text-opacity: 1;
+  color: rgb(54 117 136 / var(--tw-text-opacity, 1));
 }
 .text-gray-400 {
   --tw-text-opacity: 1;
@@ -1113,13 +1045,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-.text-\[\] {
-  color: ;
-}
-.text-\[\#367588\] {
-  --tw-text-opacity: 1;
-  color: rgb(54 117 136 / var(--tw-text-opacity, 1));
 }
 .underline {
   text-decoration-line: underline;
@@ -1282,11 +1207,6 @@ body {
 }
 
 @media (min-width: 640px) {
-
-  .sm\:px-5 {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-  }
 
   .sm\:px-96 {
     padding-left: 24rem;
