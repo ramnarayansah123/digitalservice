@@ -1,33 +1,12 @@
-import Link from "next/link";
-import TopUpPage from "../topup/page";
 import Price from "../component/Price";
+import Header from "../component/Header";
 
 export default function page() {
   return (
     <>
       <div>
-        <header className="p-5 shadow-lg bg-blue-400 flex justify-between gap-6">
-          <div className="flex gap-2">
-            <a href="/game" className="learn">
-              Home
-            </a>
-            <Link href="/game" className="learn">
-              Game
-            </Link>
-            <a href="" className="learn">
-              home
-            </a>
-            <a href="" className="learn">
-              home
-            </a>
-          </div>
-
-          <div className="flex gap-3 items-center">
-            <img className="h-8 w-8" src="/profile.svg" alt="Profile" />
-            <a className="learn">Login</a>
-            <a className="learn">SignUp</a>
-          </div>
-        </header>
+       <Header/>
+       
 
         <main className="mx-4 mt-11">
           <div className="rounded-lg">

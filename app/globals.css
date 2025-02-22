@@ -20,7 +20,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 .learn{
- @apply text-xl italic text-yellow-300 font-extrabold;
+ @apply text-xl italic text-black font-extrabold;
 }
 
 .Button{
