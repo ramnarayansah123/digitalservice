@@ -1,5 +1,6 @@
 import Price from "../component/Price";
 import Header from "../component/Header";
+import Footer from "../component/Footer";
 
 export default function page() {
   return (
@@ -66,6 +67,7 @@ After payment is made, the Diamond you purchased will be credited to your accoun
             </h2>
           </div>
         </main>
+        <Footer/>
       </div>
     </>
   );
