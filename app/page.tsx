@@ -11,7 +11,7 @@ export default function page(){
   <div >
 <Header/>
 <main >
-<h1 className=" learn text-center p-2 mb-2 ">Product</h1>
+<h1 className=" learn text-center p-2 bg-red-50 mb-2 ">Product</h1>
 
   <div className="flex justify-center flex-wrap ml-2 gap-4   ">
 
