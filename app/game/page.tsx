@@ -152,7 +152,7 @@ function addText80w(){
           <h1>Price: {name}</h1>
           <div className="bg-[#336666] mt-10 pb-3">
             <h1 className="text-white font-extrabold">Player Id(UID)</h1>
-            <input className="px-14 sm:px-96 ml-2" placeholder="enter player uid"></input>
+            <input type="number" className="px-14 sm:px-96 ml-2" placeholder="enter player uid"></input>
 
 
           </div>
