@@ -3,6 +3,7 @@ import Price from "../component/Price";
 import Header from "../component/Header";
 import Footer from "../component/Footer";
 import { useState } from "react";
+import Link from "next/link";
 
 export default function page() {
   const [name,setNames]=useState("ram")
@@ -156,7 +157,7 @@ function addText80w(){
 
 
           </div>
-          <button className="font-extrabold text-white bg-[#336666] px-4 py-2 mt-5 rounded-xl">Buy Now</button>
+          <Link href="/checkout" className="font-extrabold text-white bg-[#336666] px-6 py-2 mt-24 rounded-xl">Buy Now</Link>
           <div>
             <h1>Price: {}</h1>
             <h1>How to purchase Free Fire BD Diamonds in Game Shop Np:</h1>
